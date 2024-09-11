@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Raj Bhoge" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Raj Bhoge">Raj Bhoge</h1>
+
+          <p class="title">Cloud Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:rajgb600@gmail.com" class="contact-link">rajgb600@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+49 15560039170" class="contact-link">+49 15560039170</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/RajBhoge" class="contact-link">GitHub Profile</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/raj-bhoge-834280194/" class="contact-link">LinkedIn Profile</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Hashnode</p>
+
+              <a href="https://rajbhoge2107.hashnode.dev/" class="contact-link">Hashnode Profile</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nürnberg, Germany</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+       
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="blog">Blogs</button>
+          </li>
+          
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Cloud Engineer, Currently Pursuing MSc in Information and Communication Technology at FAU Erlangen - Nürnberg.
+            I enjoy designing, deploying, and managing cloud-based applications and infrastructure using Cloud service providers such as Amazon Web Services (AWS), Microsoft Azure.
+          </p>
+
+          <p>
+            My job is to deploy and manage infrastructure through Infrastructure as Code (IaC) using tools like AWS CloudFormation or Terraform.
+            Moreover, I
+            add personal touch to your project by collaborating with development and IT teams to integrate cloud solutions effectively.
+            Problem-solving is a key strength of mine, and I excel at analyzing and troubleshooting issues that arise in cloud environments.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Computing</h4>
+
+                <p class="service-item-text">
+                 I deliver on-demand, scalable, cost efficient IT resources and services over the internet.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of infrastructure through Infrastructure as Code (IaC).
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Network Security</h4>
+
+                <p class="service-item-text">
+                  I protect Cloud infrastructure from cyber threats and unauthorized access.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Information Technology</h4>
+
+                <p class="service-item-text">
+                  I design and implement automated IT solutions to streamline processes and enhance operational efficiency.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Appreciations & Awards</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+            
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Eviden - An Atos Business Group</h4>
+            
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Spot Recognition Award for his Dedication and ownership to ensure successful Lumileds (Atlanta Project)
+                    AWS Cloud migration. Careful Monitoring at each stage leading to the successful onboarding of every server. Bravo! <br>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Atos Global Services and solutions</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    We are pleased to give Accolade Champagne Award to Raj Bhoge for going the extra mile and receiving good client feedback.<br>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+            
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Clients</h3>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="https://www.philips.co.in/healthcare">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="https://lumileds.com/">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="https://www.siemens-healthineers.com/">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              <a href="https://www.galeria.de/">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.britvic.com/">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.paragon.world/en-gb">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Friedrich Alexander Universität Erlangen - Nürnberg </h4>
+
+              <span>2024 - Present</span>
+
+              <p class="timeline-text">
+                Master of Science - Information and Communication Technology.<br>
+                Specialization - Networks and Digital Communication. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mumbai University</h4>
+
+              <span>2017 — 2021</span>
+
+              <p class="timeline-text">
+               Bachelor of Engineering - Electronics and Telecommunication.<br>
+               GPA: 2.2 (Performance: Good)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Royal Junior College - High School of Science</h4>
+
+              <span>2015 — 2017</span>
+
+              <p class="timeline-text">
+                High School Certification - Computer Science<br>
+                GPA: 2.4 (Performance: Good)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Swami Vivekanand Vidyamandir - Secondary School</h4>
+
+              <span>2005 - 2015</span>
+
+              <p class="timeline-text">
+                Secondary School Certification<br>
+                GPA: 1.8 (Performance: Good)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Associate Consultant | Eviden - an Atos Business Group </h4>
+
+              <span>Feb 2023 - April 2024</span>
+
+              <p class="timeline-text">
+              <b>Responsibilities:</b><br>
+                ▪ Served as the primary Cloud Engineer liaison for customer inquiries, technical support, and issue resolution, ensuring smooth communication between customer needs and internal Operations teams for multiple projects.<br>
+                ▪ Led the development of automation scripts to optimize and simplify repetitive processes using AWS Native tools and Python Programming Language. <br>
+                ▪ Designed and implemented Security, Monitoring, and Backup solutions in AWS, ensuring data integrity and system reliability across multiple projects.<br>
+                ▪ Implemented end-to-end monitoring solutions using PaaS tools like Nagios to enhance real-time system monitoring and performance evaluation. <br>
+                ▪ optimizing AWS infrastructure through service provisioning, security best practices, installation of Packages over Linux and Windows Servers, patch management & automated deployments using Terraform & CI/CD pipelines, tracking all activities by ticketing systems.<br>
+                <b>Tools:</b> <br>Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Ansible, Docker, JIRA, SAP, ServiceNow, BladeLogic Server Automation, GIT, Jenkins, Grafana, PowerBI, Operating Systems (Linux, Windows). 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Systems Engineer | Atos Global Solutions and Services Pvt Ltd </h4>
+
+              <span>July 2021 — Feb 2023</span>
+
+              <p class="timeline-text">
+                <b>Responsibilities:</b><br>   
+              ▪ As a Public Cloud Service team's Cloud Engineer, served as the main point of contact for questions from customers, providing technical assistance, and resolving issues. I also oversaw two projects' worth of excellent communication between the internal Operations teams and customers' demands.<br>
+              ▪ Led the development of automation scripts to streamline repetitive and time-consuming tasks, utilizing Bash Scripting and AWS Services with the Python programming language. <br>
+              ▪ Implemented security, monitoring, and backup solutions in AWS for multiple projects to ensure data security and system reliability. <br>
+              ▪ Enhanced real-time system monitoring and performance evaluation by immplementing end-to-end monitoring configurations that included tools such as Grafana.<br>
+              <b>Tools:</b> <br>BladeLogic Server Automation, Amazon Web Services (AWS), ServiceNow, Nagios, Dell EMC Networker and CPM, Bash and Python Scripting.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Business Analyst Intern | DC IKIGAI Pvt Ltd, Mumbai</h4>
+
+              <span>Aug 2020 — Jan 2021</span>
+
+              <p class="timeline-text">
+                <b>Responsibilities:</b><br>
+                ▪ Conducted audits and provided consultancy for cost minimization and overhead reduction within working capital as a Business Analyst, contributing to the development of streamlined financial processes. <br>  
+                <b>Tools:</b> <br> PowerBI, R, Python, Microsoft Office, Jira.                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Iot Intern | Technojack Infosolutions, Mumbai</h4>
+
+              <span>Oct 2019 — Jan 2020</span>
+
+              <p class="timeline-text">
+                <b>Responsibilities:</b><br>
+                ▪ Acquired a comprehensive understanding of IoT 
+                architecture and device intricacies, progressing from 
+                fundamental to advanced concepts.  
+                ▪ Designed an integrated IoT system for gesture
+                controlled automotive functionality, employing data 
+                generated by an accelerometer attached to the human 
+                hand to alter the car's direction through specific hand 
+                movements, each translating into distinct values on the 
+                respective axes. <br> 
+                <b>Tools and components:</b> <br> Arduino IDE, Python, C, accelerometer, Arduino Microcontroller, L293d Motor Driver, DC Motors.  
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud Computing</h5>
+                <data value="80">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Development & Operations (DevOps)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Scripting & Automation</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Networks & Security</h5>
+                <data value="50">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">Certifications</h3>
+
+          <ul class="certifications-list content-card">
+              <li class="certification-item">
+                  <a href="https://www.credly.com/badges/bf9f8c69-9848-4954-94ba-66dae50bd5d4/linked_in_profile">
+                      <img src="./assets/images/CloudPract.png" alt="AWS Cloud Practitioner">
+                  </a>
+              </li>
+              <li class="certification-item">
+                  <a href="https://www.credly.com/badges/aef2b31c-ef18-41ee-99d0-3282ff281f0a/linked_in_profile">
+                      <img src="./assets/images/Solutionarchitect-removebg-preview.jpg" alt="AWS Solution Architect">
+                  </a>
+              </li>
+              <li class="certification-item">
+                  <a href="https://www.credly.com/badges/14e190f5-5ab3-460a-9dde-1a036420fde2/linked_in_profile">
+                      <img src="./assets/images/Sysops Badge-removebg-preview.jpg" alt="AWS SysOps Administrator">
+                  </a>
+              </li>
+          </ul>
+          
+
+        </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AWS Cloud Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Developement</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Scripts</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AWS Cloud Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Developement</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Scripts</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="AWS Cloud Projects">
+              <a href="https://github.com/RajBhoge/Virtual-Private-Cloud/blob/main/Design%20Virtual%20Private%20Cloud(VPC)%20using%20AWS.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Design Virtual Private Cloud(VPC) using AWS" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Design Virtual Private Cloud(VPC) using AWS</h3>
+
+                <p class="project-category">AWS Cloud Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AWS Cloud Projects">
+              <a href="https://github.com/RajBhoge/Application-on-AWS-ECS-with-Docker/blob/main/Application%20on%20AWS%20ECS%20with%20Docker.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Application on AWS ECS with Docker" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Application on AWS ECS & Docker</h3>
+
+                <p class="project-category">AWS Cloud Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AWS Cloud Projects">
+              <a href="https://github.com/RajBhoge/Production-Ready-Amazon-EKS-Cluster-Deployment/blob/main/Deploying%20a%20Production-Ready%20Amazon%20EKS%20Cluster.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="𝗔𝗹𝗲𝗿𝘁𝗗𝗲𝗽𝗹𝗼𝘆𝗶𝗻𝗴 𝗮 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗥𝗲𝗮𝗱𝘆 𝗔𝗺𝗮𝘇𝗼𝗻 𝗘𝗞𝗦 𝗖𝗹𝘂𝘀𝘁𝗲𝗿" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">𝗔𝗹𝗲𝗿𝘁𝗗𝗲𝗽𝗹𝗼𝘆𝗶𝗻𝗴 𝗮 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗥𝗲𝗮𝗱𝘆 𝗔𝗺𝗮𝘇𝗼𝗻 𝗘𝗞𝗦 𝗖𝗹𝘂𝘀𝘁𝗲𝗿</h3>
+
+                <p class="project-category">AWS Cloud Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AWS Cloud Projects">
+              <a href="https://github.com/RajBhoge/AWS-RDS">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="RDS Database Instance in Aws" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RDS Database Instance in Aws</h3>
+
+                <p class="project-category">AWS Cloud Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AWS Cloud Projects">
+              <a href="https://github.com/RajBhoge/Cloudformation-VPC">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="VPC setup using IaC" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VPC setup using IaC</h3>
+
+                <p class="project-category">AWS Cloud Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Scripts">
+              <a href="https://github.com/RajBhoge/Terraform-Scripts/blob/main/Terraform%20Script%20for%20Server%20Deployment.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="Terraform Script for Server Deployment" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Terraform Script for Server Deployment</h3>
+
+                <p class="project-category">Scripts</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Scripts">
+              <a href="https://github.com/RajBhoge/Terraform-Scripts/blob/main/Terraform%20Script%20for%20Automation.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="Terraform Script for Automation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Terraform Script for Automation</h3>
+
+                <p class="project-category">Scripts</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Scripts">
+              <a href="https://github.com/RajBhoge/Terraform-Scripts/blob/main/Scaling%20Microservices%20with%20Docker%20and%20Kubernetes.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="Scaling Microservices with Docker and Kubernetes" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Scaling Microservices with Docker and Kubernetes</h3>
+
+                <p class="project-category">Scripts</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="AWS Cloud Projects">
+              <a href="https://github.com/RajBhoge/Cloud-Design-with-Real-Time-Use-Case/blob/main/AWS%20Design%20with%20Real%20Time%20Example%20from%20Flipkart%20and%20Instagram.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="Cloud Design with Real Time Use Case" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cloud Design with Real Time Use Case</h3>
+
+                <p class="project-category">AWS Cloud Projects</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      <article class="blog" data-page="blog">
+        <section class="blog-posts">
+        <ul class="blog-posts-list">
+
+
+          <!-- Blog 1-->
+           <li class="blog-post-item">
+              <a href="https://rajbhoge2107.hashnode.dev/understanding-aws-virtual-private-cloud-fundamentals-a-beginners-guide" target="_blank">
+               <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpeg" alt="Design digest #80" loading="lazy">
+              </figure>
+              
+              <div class="blog-content">
+                  <div class="blog-meta">
+                      <p class="blog-category">Cloud Computing</p>
+                      <span class="dot"></span>
+                      <time datetime="2024-09-02">Sept 2, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Understanding AWS Virtual Private Cloud Fundamentals: A Beginner's Guide</h3>
+
+                  <p class="blog-text">
+                      This article will explain the fundamentals of Amazon VPC, including its scope, building blocks, addressing schemes, and more.
+                  </p>
+              </div>
+          </a>
+          </li>
+
+          <!-- Blog 2-->
+          <li class="blog-post-item">
+          <a href="https://rajbhoge2107.hashnode.dev/conquering-the-cloud-how-to-manage-your-aws-migration" target="_blank">
+              <figure class="blog-banner-box">
+                  <img src="./assets/images/Blog-3.png" alt="Design digest #80" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+                  <div class="blog-meta">
+                      <p class="blog-category">Cloud Migration</p>
+                      <span class="dot"></span>
+                      <time datetime="2024-09-02">Sept 2, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Conquering the Cloud: How to Manage Your AWS Migration</h3>
+
+                  <p class="blog-text">
+                    Moving your organization to the cloud can be transformational, providing scalability, security, and flexibility. However, the relocation procedure itself can appear difficult.
+                  </p>
+              </div>
+          </a>
+          </li>
+
+          <!-- Blog 3-->
+          <li class="blog-post-item">
+          <a href="https://rajbhoge2107.hashnode.dev/unlocking-the-power-of-aws-machine-learning-a-beginners-guide" target="_blank">
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-2.jpeg" alt="Design digest #80" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+                  <div class="blog-meta">
+                      <p class="blog-category">Machine Learning</p>
+                      <span class="dot"></span>
+                      <time datetime="2024-09-02">Sept 2, 2024</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Unlocking the Power of AWS Machine Learning: A Beginner's Guide</h3>
+
+                <p class="blog-text">
+                  This article will explain AWS simplifies creating both simple and complex machine learning models, even if you have minimal coding skills.
+                </p>
+            </div>
+          </a>
+          </li>
+
+        </ul>
+      </section>
+    </article>
+
+
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
