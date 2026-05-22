@@ -336,6 +336,15 @@ main {
   border-radius: 20px;
 }
 
+/* Ensure avatar image is cropped and scales nicely */
+.avatar-box img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
