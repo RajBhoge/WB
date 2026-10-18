@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Raj Bhoge - Portfolio</title>
 
   <!--
     - favicon
@@ -41,14 +41,24 @@
 
       <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="IMG_7605.jpg" alt="Raj Bhoge" width="100" height="100">
+        <figure class="avatar-box avatar-3d" data-avatar-3d title="Click to flip">
+          <div class="avatar-inner" data-avatar-inner>
+            <img src="IMG_7605.jpg" alt="Raj Bhoge" width="100" height="100">
+
+            <div class="avatar-back" aria-hidden="true">
+              <span class="avatar-monogram">RB</span>
+              <span class="avatar-tagline">AI · Cloud</span>
+              <span class="avatar-wave">👋</span>
+            </div>
+
+            <span class="avatar-shine" data-avatar-shine></span>
+          </div>
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Raj Bhoge">Raj Bhoge</h1>
 
-          <p class="title">Cloud Engineer</p>
+          <p class="title">AI &amp; Cloud Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -190,6 +200,10 @@
           </li>
 
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Journey</button>
+          </li>
+
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link="blog">Blogs</button>
           </li>
           
@@ -212,10 +226,49 @@
           <h2 class="h2 article-title">About me</h2>
         </header>
 
-        <section class="about-text">
-          <p>
-            Cloud & AI engineer (Googler) with 4+ years’ experience building distributed systems, GenAI pipelines, and cloud-native infrastructure across AWS, GCP, and Azure. I’m currently scaling microservices at Intrinsic (Google) using Kubernetes and Golang, and I previously shipped production RAG systems at Innomotics. Triple AWS-certified and a hackathon winner, I’m fluent across the DevOps lifecycle and love connecting with people.
-          </p>
+        <section class="bento">
+
+          <div class="bento-tile bento-about about-text" data-bento-tile>
+            <p>
+              AI &amp; Cloud engineer with 4+ years' experience building GenAI/RAG systems, distributed systems and cloud-native infrastructure across AWS, GCP and Azure. I'm currently a Solution Architect (Working Student) at Speexx, building an agentic RAG assistant on Azure OpenAI and Azure AI Search. Before that I worked on cloud infrastructure and developer tooling for Physical AI services at Google, and shipped production RAG and LLM-evaluation services at Innomotics.
+            </p>
+            <p>
+              Triple AWS-certified, "Wizard of Google" award winner and Innomotics hackathon winner. I'm pursuing an M.Sc. in Information and Communication Technology at FAU Erlangen-Nürnberg.
+            </p>
+          </div>
+
+          <div class="bento-tile bento-stat bento-years" data-bento-tile>
+            <data class="bento-number" value="4">4+</data>
+            <p class="bento-label">Years of experience</p>
+          </div>
+
+          <div class="bento-tile bento-stat bento-certs" data-bento-tile>
+            <data class="bento-number" value="3">3×</data>
+            <p class="bento-label">AWS certified</p>
+          </div>
+
+          <div class="bento-tile bento-now" data-bento-tile>
+            <p class="bento-kicker"><span class="live-dot"></span> Now</p>
+            <p class="bento-now-role">Solution Architect</p>
+            <p class="bento-label">@ Speexx, Munich</p>
+          </div>
+
+          <div class="bento-tile bento-stack" data-bento-tile>
+            <p class="bento-kicker">Favourite stack</p>
+            <ul class="stack-chips">
+              <li>Python</li>
+              <li>Golang</li>
+              <li>LangChain</li>
+              <li>LlamaIndex</li>
+              <li>Azure OpenAI</li>
+              <li>AWS Bedrock</li>
+              <li>Kubernetes</li>
+              <li>gRPC</li>
+              <li>Terraform</li>
+              <li>FastAPI</li>
+            </ul>
+          </div>
+
         </section>
 
 
@@ -232,15 +285,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="icon-design.svg
-                " alt="design icon" width="40">
+                <img src="icon-design.svg" alt="design icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cloud Computing</h4>
+                <h4 class="h4 service-item-title">Generative AI &amp; RAG</h4>
 
                 <p class="service-item-text">
-                 I deliver on-demand, scalable, cost efficient IT resources and services over the internet.
+                  I build agentic RAG assistants and model-agnostic LLM pipelines with LangChain, LlamaIndex, Azure OpenAI and AWS Bedrock.
                 </p>
               </div>
 
@@ -253,10 +305,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cloud Development</h4>
+                <h4 class="h4 service-item-title">LLM Evaluation</h4>
 
                 <p class="service-item-text">
-                  High-quality development of infrastructure through Infrastructure as Code (IaC).
+                  I evaluate retrieval and answer quality, latency and token cost with RAGAS, TruLens and PydanticAI.
                 </p>
               </div>
 
@@ -269,10 +321,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Network Security</h4>
+                <h4 class="h4 service-item-title">Cloud &amp; Distributed Systems</h4>
 
                 <p class="service-item-text">
-                  I protect Cloud infrastructure from cyber threats and unauthorized access.
+                  I design secure, observable cloud-native services with Kubernetes, gRPC, FastAPI and serverless functions.
                 </p>
               </div>
 
@@ -285,10 +337,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Information Technology</h4>
+                <h4 class="h4 service-item-title">DevOps &amp; IaC</h4>
 
                 <p class="service-item-text">
-                  I design and implement automated IT solutions to streamline processes and enhance operational efficiency.
+                  I automate infrastructure and deployments with Terraform, Ansible, Docker and CI/CD pipelines.
                 </p>
               </div>
 
@@ -308,6 +360,39 @@
           <h3 class="h3 testimonials-title">Appreciations & Awards</h3>
 
           <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-3.png" alt="Google award" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Google Germany GmbH</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Awarded "The Wizard of Google" as a Prompt Master in August 2026.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-4.png" alt="Innomotics award" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Innomotics GmbH</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Awarded "Hackathon Winner" for exemplary work in June 2025.
+                  </p>
+                </div>
+              </div>
+            </li>
+
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
                 <figure class="testimonials-avatar-box">
@@ -324,7 +409,6 @@
                 </div>
               </div>
             </li>
-          </ul>
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
@@ -349,6 +433,21 @@
             
 
           </ul>
+
+          <div class="swipe-hint" data-swipe-hint>
+            <button class="swipe-btn" data-swipe-btn="-1" aria-label="Previous award">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+
+            <p class="swipe-text">
+              <ion-icon name="hand-left-outline" class="swipe-hand"></ion-icon>
+              <span>Swipe to see more awards</span>
+            </p>
+
+            <button class="swipe-btn" data-swipe-btn="1" aria-label="Next award">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
 
         </section>
 
@@ -454,22 +553,23 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Friedrich Alexander Universität Erlangen - Nürnberg </h4>
+              <h4 class="h4 timeline-item-title">Friedrich-Alexander-Universität Erlangen-Nürnberg</h4>
 
-              <span>2024 - Present</span>
+              <span>Apr 2024 — Present</span>
 
               <p class="timeline-text">
                 Master of Science - Information and Communication Technology.<br>
-                Specialization - Networks and Digital Communication. 
+                Specialization - Networks and Digital Communication.<br>
+                GPA: 2.5 (Performance: Good) 
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Mumbai University</h4>
+              <h4 class="h4 timeline-item-title">Terna Engineering College, Navi Mumbai</h4>
 
-              <span>2017 — 2021</span>
+              <span>Jun 2017 — Jul 2021</span>
 
               <p class="timeline-text">
                Bachelor of Engineering - Electronics and Telecommunication.<br>
@@ -482,7 +582,7 @@
 
               <h4 class="h4 timeline-item-title">Royal Junior College - High School of Science</h4>
 
-              <span>2015 — 2017</span>
+              <span>Aug 2015 — May 2017</span>
 
               <p class="timeline-text">
                 High School Certification - Computer Science<br>
@@ -495,7 +595,7 @@
 
               <h4 class="h4 timeline-item-title">Swami Vivekanand Vidyamandir - Secondary School</h4>
 
-              <span>2005 - 2015</span>
+              <span>Apr 2014 — Jun 2015</span>
 
               <p class="timeline-text">
                 Secondary School Certification<br>
@@ -522,48 +622,77 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Software Engineer for Cloud Infrastructure – Intern | Intrinsic - Google Germany GmbH, Munich, Germany</h4>
+              <h4 class="h4 timeline-item-title">Solution Architect – Working Student | Speexx – Digital Publishing AG, Munich</h4>
 
-              <span>May 2026 - Present</span>
+              <span>Sep 2026 — Present</span>
 
               <p class="timeline-text">
                 <b>Responsibilities:</b><br>
-                ▪ Working on google3 scalable cloud infrastructure and developer tooling for microservices using Golang, Kubernetes, and Google Cloud Platform, focusing on Memory profiling in google internal frameworks, performance benchmarking, and observability for distributed systems.<br>
-                ▪ Contributing to restructuring of entire architecture and authentication propagation improvements by developing reusable infrastructure components, improving developer experience, and supporting secure inter-service communication across cloud-native services.<br>
-                <b>Tools:</b> <br>Golang, Kubernetes, Google Cloud Platform (GCP), microservices, observability, developer tooling.
+                ▪ Built an end-to-end agentic RAG assistant for presales teams that answers security questionnaires from the company knowledge base, using Python/FastAPI, Azure OpenAI, Azure AI Search, LangChain, Azure Functions and PostgreSQL within Speexx infrastructure.<br>
+                ▪ Evaluated document extraction services and LLMs on answer quality, latency and token cost, which shaped the choice of models and services.<br>
+                ▪ Optimized the document ingestion pipeline end-to-end, from multi-format extraction to retrieval and response generation, reducing processing time by over 75%. Refined prompt engineering so answers follow the client's required format and stay grounded in their sources.<br>
+                <b>Tools:</b> <br>Python, FastAPI, Azure OpenAI, Azure AI Search, LangChain, Azure Functions, PostgreSQL.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Cloud Engineer  | Eviden - an Atos Business Group </h4>
+              <h4 class="h4 timeline-item-title">Software Engineer – Intern | Google Germany GmbH, Munich</h4>
 
-              <span>Feb 2023 - April 2024</span>
+              <span>May 2026 — Aug 2026</span>
 
               <p class="timeline-text">
-              <b>Responsibilities:</b><br>
-                ▪ Functioned as a Cloud Engineer, acting as the main point of contact for customer inquiries and technical support, while managing, consulting and optimizing AWS infrastructure through service provisioning, security best practices, and automated deployments using Terraform and CI/CD pipelines utilizing Agile Methodology.   <br>
-                ▪ Led and contributed to AWS-related projects, including capacity planning, scaling, migrations, and upgrades, ensuring seamless execution with minimal operational disruption and enhancing real-time system monitoring using tools like Grafana. <br>
-                ▪ Implemented comprehensive security and backup solutions across multiple AWS projects, ensuring data security, system reliability, and consistently recommending architectural improvements by staying updated with the latest AWS features.  <br>
-                <b>Tools:</b> <br>Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Ansible, Docker, JIRA, SAP, ServiceNow, BladeLogic Server Automation, GIT, Jenkins, Grafana, PowerBI, Operating Systems (Linux, Windows). 
+                <b>Responsibilities:</b><br>
+                ▪ Worked on cloud infrastructure and developer tooling for Physical AI services, using Google's internal frameworks. Identified memory leaks in multiple frameworks and performed memory profiling, performance benchmarking and observability analysis for distributed systems.<br>
+                ▪ Improved authentication-related Kubernetes components and inter-service communication using gRPC and HTTP, developing reusable infrastructure components to support secure communication and improve developer experience.<br>
+                <b>Tools:</b> <br>Golang, Kubernetes, gRPC, HTTP, Google Cloud Platform (GCP), observability, memory profiling.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Systems Engineer | Atos Global Solutions and Services Pvt Ltd </h4>
+              <h4 class="h4 timeline-item-title">AI Engineer – Working Student | Innomotics GmbH, Nuremberg</h4>
 
-              <span>July 2021 — Feb 2023</span>
+              <span>Jan 2025 — Mar 2026</span>
 
               <p class="timeline-text">
-                <b>Responsibilities:</b><br>   
-              ▪ As a Public Cloud Service team's Cloud Engineer, served as the main point of contact for questions from customers, providing technical assistance, and resolving issues. I also oversaw two projects' worth of excellent communication between the internal Operations teams and customers' demands.<br>
-              ▪ Led the development of automation scripts to streamline repetitive and time-consuming tasks, utilizing Bash Scripting and AWS Services with the Python programming language. <br>
-              ▪ Implemented security, monitoring, and backup solutions in AWS for multiple projects to ensure data security and system reliability. <br>
-              ▪ Enhanced real-time system monitoring and performance evaluation by immplementing end-to-end monitoring configurations that included tools such as Grafana.<br>
-              <b>Tools:</b> <br>BladeLogic Server Automation, Amazon Web Services (AWS), ServiceNow, Nagios, Dell EMC Networker and CPM, Bash and Python Scripting.
+                <b>Responsibilities:</b><br>
+                ▪ Built an LLM-powered RAG knowledge assistant using LlamaIndex and LiteLLM, integrating AWS Bedrock and OpenAI models with ChromaDB and Weaviate for semantic retrieval and contextual response generation.<br>
+                ▪ Developed model-agnostic GenAI pipelines in Python using AWS Bedrock for LLM inference and embeddings, focusing on prompt engineering, context-window management, tokenization and model evaluation.<br>
+                ▪ Developed a RAG evaluation service using TruLens, RAGAS and PydanticAI to assess retrieval and response quality and support reliable LLM application development.<br>
+                <b>Tools:</b> <br>Python, LlamaIndex, LiteLLM, AWS Bedrock, OpenAI, ChromaDB, Weaviate, TruLens, RAGAS, PydanticAI.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DevOps Engineer | Eviden – an Atos Business Group, Pune</h4>
+
+              <span>Feb 2023 — Apr 2024</span>
+
+              <p class="timeline-text">
+                <b>Responsibilities:</b><br>
+                ▪ Served as the main point of contact for customer inquiries. Managed and optimized cloud infrastructure through service provisioning, security best practices, and automated deployments using Terraform (Infrastructure as Code) and CI/CD pipelines in an Agile environment.<br>
+                ▪ Led AWS-hosted projects, including capacity planning, scaling, migrations, and upgrades, ensuring seamless execution with minimal operational disruption and enhancing real-time system monitoring using tools like Grafana.<br>
+                <b>Tools:</b> <br>AWS, Terraform, CI/CD, Ansible, Docker, Jenkins, Git, Grafana, ServiceNow, Jira, Linux.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cloud Engineer | Atos Global Services and Solutions Pvt Ltd, Pune</h4>
+
+              <span>Jul 2021 — Feb 2023</span>
+
+              <p class="timeline-text">
+                <b>Responsibilities:</b><br>
+                ▪ Worked in the Public Cloud Service team handling security-related customer incidents. Developed Python-based AWS Lambda functions to automate secure deployments. Monitored cloud systems using Nagios and enterprise monitoring tools.<br>
+                ▪ Assisted in backup, recovery, and compliance monitoring using Dell EMC tools. Supported incident resolution and operational security processes.<br>
+                <b>Tools:</b> <br>AWS, AWS Lambda, Python, Bash, Nagios, Dell EMC Networker, ServiceNow.
               </p>
 
             </li>
@@ -609,6 +738,58 @@
 
         </section>
 
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="flask-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects &amp; Research</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cascade Shield – AI multi-agent framework for Smart Grid cybersecurity</h4>
+
+              <span>1 Year</span>
+
+              <p class="timeline-text">
+                An automated cyber-defense framework for DNP3-based smart grids that detects attacks using a Graph Neural Network (80% accuracy, 2 ms inference) and coordinates real-time responses through isolation, rerouting, restoration and emergency agents, validated on an IEEE 14-bus power grid simulated in pandapower.<br>
+                <b>Role:</b> Independently designed and implemented the full pipeline, including GNN model development, multi-agent coordination, safety validation and evaluation, and documented the results in a research report.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IoT Device Management &amp; Analytics Platform (KAA-based)</h4>
+
+              <span>6 Months</span>
+
+              <p class="timeline-text">
+                An open-source middleware platform for end-to-end IoT solutions, connected applications and smart products, with unique user IDs, MongoDB integration, real-time user tracking and live location display on Google Maps.<br>
+                <b>Role:</b> Led the project team by delegating responsibilities, setting strategic objectives and ensuring transparent communication.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Seminars</h4>
+
+              <p class="timeline-text">
+                Presented research on "Role of Quantum Computing in shaping the future of 6G technology" and "Cascade Shield – an AI multi-agent framework for Smart Grid cybersecurity".
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
         <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
@@ -618,33 +799,7 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Cloud Computing</h5>
-                <data value="80">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Development & Operations (DevOps)</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Scripting & Automation</h5>
+                <h5 class="h5">Generative AI, RAG &amp; LLM Evaluation</h5>
                 <data value="90">90%</data>
               </div>
 
@@ -657,12 +812,38 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Networks & Security</h5>
-                <data value="50">70%</data>
+                <h5 class="h5">Cloud Computing (AWS, Azure, GCP)</h5>
+                <data value="85">85%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DevOps, IaC &amp; Kubernetes</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming (Python, Golang, SQL)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
               </div>
 
             </li>
@@ -690,9 +871,48 @@
                   </a>
               </li>
           </ul>
-          
 
-        </article>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Languages</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">English</h5>
+                <data value="C2">C2</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">German</h5>
+                <data value="B1">B1</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Hindi</h5>
+                <data value="C2">C2</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Marathi</h5>
+                <data value="C2">C2</data>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
 
 
 
@@ -933,6 +1153,36 @@
         </section>
 
       </article>
+      <!--
+        - #JOURNEY
+      -->
+
+      <article class="journey" data-page="journey">
+
+        <header>
+          <h2 class="h2 article-title">My Journey</h2>
+        </header>
+
+        <section class="journey-stage">
+
+          <div class="flap-board" aria-live="polite">
+            <p class="flap-kicker"><span class="live-dot"></span> <span data-flap-status>Now boarding</span></p>
+
+            <div class="flap-row flap-code" data-flap-code></div>
+            <div class="flap-row flap-city" data-flap-city></div>
+
+            <p class="flap-years" data-flap-years></p>
+            <p class="flap-what" data-flap-what></p>
+          </div>
+
+        </section>
+
+        <ol class="journey-stops" data-journey-stops></ol>
+
+        <p class="journey-hint">Tap a stop to flip the board</p>
+
+      </article>
+
       <article class="blog" data-page="blog">
         <section class="blog-posts">
         <ul class="blog-posts-list">

@@ -6,7 +6,7 @@ A responsive vCard-style personal portfolio website showcasing my experience as 
 
 ## About Me
 
-Cloud & AI Engineer (Googler) with 4+ years' experience building distributed systems, GenAI pipelines, and cloud-native infrastructure across AWS, GCP, and Azure. Currently scaling microservices at **Intrinsic (Google)** using Kubernetes and Golang. Triple AWS-certified and hackathon winner.
+AI & Cloud Engineer with 4+ years' experience building GenAI/RAG systems, distributed systems, and cloud-native infrastructure across AWS, GCP, and Azure. Currently a **Solution Architect (Working Student) at Speexx**, building an agentic RAG assistant on Azure. Previously at **Google** and **Innomotics**. Triple AWS-certified, "Wizard of Google" award winner and hackathon winner.
 
 ## Sections
 
@@ -26,18 +26,26 @@ Cloud & AI Engineer (Googler) with 4+ years' experience building distributed sys
 
 ## Experience Highlights
 
-- **Software Engineer Intern – Intrinsic (Google), Munich** *(May 2026 – Present)*  
-  Golang, Kubernetes, GCP — microservices infrastructure and observability
+- **Solution Architect – Working Student, Speexx, Munich** *(Sep 2026 – Present)*  
+  Agentic RAG assistant with Azure OpenAI, Azure AI Search, LangChain, FastAPI
 
-- **Cloud Engineer – Eviden (Atos), Germany** *(Feb 2023 – Apr 2024)*  
-  AWS infrastructure management, Terraform, CI/CD, Grafana
+- **Software Engineer Intern – Google Germany, Munich** *(May 2026 – Aug 2026)*  
+  Cloud infrastructure and developer tooling for Physical AI services; Kubernetes, gRPC, memory profiling
 
-- **Systems Engineer – Atos Global Solutions** *(Jul 2021 – Feb 2023)*  
-  AWS automation, Python/Bash scripting, monitoring
+- **AI Engineer – Working Student, Innomotics, Nuremberg** *(Jan 2025 – Mar 2026)*  
+  RAG knowledge assistant and evaluation service; LlamaIndex, AWS Bedrock, RAGAS, TruLens
+
+- **DevOps Engineer – Eviden (Atos), Pune** *(Feb 2023 – Apr 2024)*  
+  AWS infrastructure, Terraform, CI/CD, Grafana
+
+- **Cloud Engineer – Atos Global Services, Pune** *(Jul 2021 – Feb 2023)*  
+  AWS Lambda automation, security incidents, monitoring
 
 ## Certifications
 
-- AWS Certified (×3)
+- AWS Certified Solutions Architect – Associate
+- AWS Certified SysOps Administrator – Associate
+- AWS Certified Cloud Practitioner
 
 ## Contact
 
