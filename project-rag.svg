@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1e21"/>
+      <stop offset="1" stop-color="#111113"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#ffd56b" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffd56b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffdb70"/>
+      <stop offset="1" stop-color="#c9a24a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="400" fill="url(#bg)"/>
+  <rect width="640" height="400" fill="url(#glow)"/>
+
+  <!-- pipeline links -->
+  <g stroke="#ffd56b" stroke-width="2" stroke-dasharray="6 6" fill="none" opacity="0.7">
+    <path d="M128 190 H198"/>
+    <path d="M282 190 H352"/>
+    <path d="M436 190 H506"/>
+  </g>
+  <g fill="#ffd56b">
+    <path d="M198 184 l10 6 -10 6z"/>
+    <path d="M352 184 l10 6 -10 6z"/>
+    <path d="M506 184 l10 6 -10 6z"/>
+  </g>
+
+  <!-- nodes -->
+  <g font-family="Poppins, Arial, sans-serif" font-size="15" fill="#d6d6d6" text-anchor="middle">
+    <g>
+      <rect x="44" y="148" width="84" height="84" rx="18" fill="#26262a" stroke="#3a3a3f"/>
+      <path d="M70 168 h24 l10 10 v34 h-34z" fill="none" stroke="#ffd56b" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M78 188 h18 M78 196 h18 M78 204 h12" stroke="#ffd56b" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="86" y="258">Docs</text>
+    </g>
+    <g>
+      <rect x="198" y="148" width="84" height="84" rx="18" fill="#26262a" stroke="#3a3a3f"/>
+      <g fill="#ffd56b">
+        <circle cx="222" cy="174" r="4"/><circle cx="240" cy="174" r="4" opacity="0.6"/><circle cx="258" cy="174" r="4"/>
+        <circle cx="222" cy="190" r="4" opacity="0.6"/><circle cx="240" cy="190" r="4"/><circle cx="258" cy="190" r="4" opacity="0.6"/>
+        <circle cx="222" cy="206" r="4"/><circle cx="240" cy="206" r="4" opacity="0.6"/><circle cx="258" cy="206" r="4"/>
+      </g>
+      <text x="240" y="258">Embed</text>
+    </g>
+    <g>
+      <rect x="352" y="148" width="84" height="84" rx="18" fill="#26262a" stroke="#3a3a3f"/>
+      <g fill="none" stroke="#ffd56b" stroke-width="2.5">
+        <ellipse cx="394" cy="170" rx="20" ry="7"/>
+        <path d="M374 170 v40 c0 4 9 7 20 7 s20 -3 20 -7 v-40"/>
+        <path d="M374 190 c0 4 9 7 20 7 s20 -3 20 -7"/>
+      </g>
+      <text x="394" y="258">Retrieve</text>
+    </g>
+    <g>
+      <rect x="506" y="148" width="84" height="84" rx="18" fill="#2e2a1f" stroke="#ffd56b" stroke-opacity="0.6"/>
+      <path d="M528 172 h40 a6 6 0 0 1 6 6 v20 a6 6 0 0 1 -6 6 h-24 l-10 9 v-9 h-6 a6 6 0 0 1 -6 -6 v-20 a6 6 0 0 1 6 -6z" fill="none" stroke="#ffd56b" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M538 188 h20" stroke="#ffd56b" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="548" y="258">LLM</text>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="320" y="88" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="600" fill="url(#gold)" text-anchor="middle">RAG System</text>
+  <text x="320" y="330" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#a8a8a8" text-anchor="middle" letter-spacing="2">LANGCHAIN · FASTAPI · TRULENS</text>
+</svg>
